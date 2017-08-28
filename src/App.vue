@@ -16,6 +16,11 @@
         </div>
       </div>
     </main>
+    <footer>
+      <a :href="authorUrl">
+        malone.io
+      </a>
+    </footer>
   </div>
 </template>
 
@@ -24,6 +29,7 @@ export default {
   name: 'app',
   data () {
     return {
+      authorUrl: 'https://malone.io',
       rateLoaded: false,
       rateLoading: true,
       rateLastUpdated: '2017-08-25',
@@ -73,6 +79,18 @@ export default {
 </script>
 
 <style>
+footer {
+  height: 50px;
+  line-height: 50px;
+}
+
+footer a {
+  font-family: 'AvenirNextCondensed-HeavyItalic';
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
 .currencyRow {
   display: flex;
   width: 100%;
