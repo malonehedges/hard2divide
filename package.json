@@ -5,7 +5,7 @@
   "author": "Malone Hedges <contact@malone.io>",
   "private": true,
   "scripts": {
-    "deploy": "surge --project ./dist/ --domain hard2divide.surge.sh",
+    "deploy": "surge --project ./dist/ --domain hard2divide.malone.io",
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
     "build": "node build/build.js",
