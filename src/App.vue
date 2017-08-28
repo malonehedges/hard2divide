@@ -99,6 +99,7 @@ export default {
 html {
   height: 100%;
   color: #404040;
+  background-color: rgb(30, 162, 32);
 }
 
 body {
